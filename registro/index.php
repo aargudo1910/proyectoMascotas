@@ -4,11 +4,11 @@
         <title>
             INGRESO DE MASCOTAS
         </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../includes/style.css">
     </head>
     <body>
         <div class="form">
-            <form action="connect.php" method="POST">
+            <form action="../database/db_registro.php" method="POST">
                 <h2>REGISTRO DE MASCOTAS</h2>
                 <br>
                 <p>Nombre</p>
