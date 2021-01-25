@@ -2,22 +2,19 @@
 <html>
     <head>
         <title>
-            MOSTRAR MASCOTAS
+            MOSTRAR SOLICITUDES
         </title>
         <link rel="stylesheet" type="text/css" href="../includes/style2.css">
     </head>
     <body>
-        <h1>MASCOTAS DISPONIBLES</h1>
+        <h1>SOLICITUDES EN PROCESO</h1>
         <table>
             <tr>
-                <th>Nombre</th>
-                <th>Edad</th>
-                <th>Animal</th>
-                <th>Raza</th>
-                <th>Color</th>
+                <th>Cedula</th>
+                <th>Estado</th>
             </tr>
             <?php 
-            include("../database/db_mostrar_mascotas.php");
+            include("../database/db_mostrar_solicitudes.php");
             ?>
         </table>
     </body>
