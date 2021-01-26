@@ -7,7 +7,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema fundacion
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `fundacion` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+CREATE SCHEMA IF NOT EXISTS `fundacion` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci ;
 USE `fundacion` ;
 
 -- -----------------------------------------------------
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`usuario` (
   `ciudad` VARCHAR(45) NOT NULL,
   `direccion` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idusuario`),
-  UNIQUE INDEX `idusuario_UNIQUE` (`idusuario` ASC) VISIBLE)
+  UNIQUE INDEX `idusuario_UNIQUE` (`idusuario` ASC))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`mascotas` (
   `edad` VARCHAR(155) CHARACTER SET 'utf8' COLLATE 'utf8_spanish_ci' NOT NULL,
   `animal` VARCHAR(155) CHARACTER SET 'utf8' COLLATE 'utf8_spanish_ci' NOT NULL,
   `raza` VARCHAR(155) CHARACTER SET 'utf8' COLLATE 'utf8_spanish_ci' NOT NULL,
-  `color` VARCHAR(155) CHARACTER SET 'utf8' COLLATE 'utf8_spanish_ci' NOT NULL
+  `color` VARCHAR(155) CHARACTER SET 'utf8' COLLATE 'utf8_spanish_ci' NOT NULL)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_spanish_ci;
@@ -60,7 +60,7 @@ COLLATE = utf8_spanish_ci;
 CREATE TABLE IF NOT EXISTS `fundacion`.`administrador` (
   `idadministrador` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`idadministrador`),
-  UNIQUE INDEX `idsolicitud_UNIQUE` (`idadministrador` ASC) VISIBLE)
+  UNIQUE INDEX `idsolicitud_UNIQUE` (`idadministrador` ASC))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
