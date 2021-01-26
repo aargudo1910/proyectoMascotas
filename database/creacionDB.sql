@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`usuario` (
   PRIMARY KEY (`idusuario`),
   UNIQUE INDEX `idusuario_UNIQUE` (`idusuario` ASC))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_spanish_ci;
 
 -- -----------------------------------------------------
 -- Table `fundacion`.`solicitud`
@@ -34,10 +34,10 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`solicitud` (
   `idsolicitud` VARCHAR(45) NOT NULL, -- idsolicitud = cedula del usuario
   `estado` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idsolicitud`),
-  UNIQUE INDEX `idsolicitud_UNIQUE` (`idsolicitud` ASC) VISIBLE)
+  UNIQUE INDEX `idsolicitud_UNIQUE` (`idsolicitud` ASC))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_spanish_ci;
 
 
 -- -----------------------------------------------------
@@ -62,8 +62,8 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`administrador` (
   PRIMARY KEY (`idadministrador`),
   UNIQUE INDEX `idsolicitud_UNIQUE` (`idadministrador` ASC))
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_spanish_ci;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
