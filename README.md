@@ -11,5 +11,7 @@ Hacer una solicitud => http://localhost/proyectomascotas/solicitud/
 
 Visualizar las solicitudes => http://localhost/proyectomascotas/solicitud/mostrar_solicitud.php
 
+Verificar las solicitudes => http://localhost/proyectomascotas/solicitud/mostrar_solicitud.php
+
 En la carpeta Database está el archivo para la creación de la base de datos.
 Los datos de la conexión con la base de datos están en el archivo db.php
