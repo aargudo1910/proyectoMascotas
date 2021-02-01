@@ -1,0 +1,34 @@
+#div_general{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+h1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    justify-self: center;
+    font-size: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.user{
+    border-radius: 25px;
+    background: #ffffff;
+    width: 500px;
+}
+
+#id_global{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 150px;
+    justify-content: center;
+    gap: 10px;
+}
+#boton_is{
+    width: 100px;
+    justify-self: center;
+}
+
+#registro{
+    justify-self: center;
+    font-size: small;
+    color:rgb(255, 255, 255);
+}

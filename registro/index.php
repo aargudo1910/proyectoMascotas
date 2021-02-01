@@ -29,6 +29,7 @@
                 <br>
                 <input type="submit" value="Enviar">
             </form>
+            <a href="../admin.php"><input type="button" value="Atras"></a>
         </div>
     </body>
 </html>

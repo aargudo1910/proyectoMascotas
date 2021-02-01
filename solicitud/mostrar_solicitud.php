@@ -18,6 +18,6 @@
             include("../database/db_mostrar_solicitudes.php");
             ?>
         </table>
-        
+        <a href="../admin.php"><input type="button" value="Atras"></a>
     </body>
 </html>
