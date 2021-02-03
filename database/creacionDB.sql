@@ -10,21 +10,14 @@ CREATE SCHEMA IF NOT EXISTS `fundacion` DEFAULT CHARACTER SET utf8 COLLATE utf8_
 USE `fundacion` ;
 
 -- -----------------------------------------------------
--- Table `fundacion`.`usuario`
+-- Table `fundacion`.`users`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `fundacion`.`usuario` (
-  `cedula` VARCHAR(45) NOT NULL,
-  `nombre` VARCHAR(45) NOT NULL,
-  `apellido` VARCHAR(45) NOT NULL,
-  `correo` VARCHAR(100) NOT NULL,
-  `num_telefono` VARCHAR(45) NOT NULL,
-  `ciudad` VARCHAR(45) NOT NULL,
-  `direccion` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`cedula`),
-  UNIQUE INDEX `cedula` (`cedula` ASC))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_spanish_ci;
+CREATE TABLE `fundacion`.`users` ( 
+  `username` VARCHAR(50) NOT NULL , 
+  `email` VARCHAR(50) NOT NULL , 
+  `usertype` VARCHAR(50) NOT NULL , 
+  `password` VARCHAR(50) NOT NULL ) 
+ENGINE = InnoDB;
 
 -- -----------------------------------------------------
 -- Table `fundacion`.`solicitud`
@@ -51,19 +44,6 @@ CREATE TABLE IF NOT EXISTS `fundacion`.`mascotas` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_spanish_ci;
-
-
--- -----------------------------------------------------
--- Table `fundacion`.`administrador`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `fundacion`.`administrador` (
-  `idadministrador` INT NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`idadministrador`),
-  UNIQUE INDEX `idsolicitud_UNIQUE` (`idadministrador` ASC))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_spanish_ci;
-
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
