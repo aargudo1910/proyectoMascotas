@@ -21,6 +21,7 @@
             include("../database/db_mostrar_mascotas.php");
             ?>
         </table>
+        <a class="b" id="salir" href="/solicitud/index.php"><input type="button" id="p" value="Crear Solicitud"></a>
         <a href="../index.php"><input type="button" value="Cerrar sesión"></a>
     </body>
 </html>

@@ -18,5 +18,5 @@
     }else{
         echo "0 result";
     }
-    $db-> close();
+
 ?>
