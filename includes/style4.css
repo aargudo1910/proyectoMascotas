@@ -1,0 +1,22 @@
+body{
+    background: cornflowerblue;
+    justify-content: center;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 100px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.boton{
+    display: grid;
+    grid-row-gap: 1fr 1fr 1fr ;
+    justify-content: center;
+}
+
+.b{
+    height: 100px;
+    width: 100px;
+}

@@ -8,10 +8,12 @@
         <link rel="stylesheet" type="text/css" href="../includes/style4.css">
     </head>
     <body>
-        <h1>Admin</h1>
-        <a href="../registrar_usuarios.php"><input type="button" value="Crear usuario"></a>
-        <a href="../registro/index.php"><input type="button" value="Agregar animal"></a>
-        <a href="../solicitud/mostrar_solicitud.php"><input type="button" value="visualizar solicitudes"></a>
-        <a href="../index.php"><input type="button" value="Cerrar sesión"></a>
+        <h1>ADMINISTRADOR</h1>
+        <div class="boton">
+            <a href="../registrar_usuarios.php" class="b"><input type="button" value="Crear usuario"></a>
+            <a class="b" href="../registro/index.php"><input type="button" value="Agregar animal"></a>
+            <a class="b" href="../solicitud/mostrar_solicitud.php"><input type="button" value="visualizar solicitudes"></a>
+            <a class="b" href="../index.php"><input type="button" value="Cerrar sesión"></a>
+        </div>
     </body>
 </html>

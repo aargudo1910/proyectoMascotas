@@ -5,7 +5,7 @@
         <title>
             PET-FINDER
         </title>
-        <link rel="stylesheet" type="text/css" href="../includes/style2.css">
+        <link rel="stylesheet" type="text/css" href="../includes/style5.css">
     </head>
     <body>
     <h1>MASCOTAS DISPONIBLES</h1>
