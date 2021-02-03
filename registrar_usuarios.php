@@ -21,10 +21,10 @@
                 <input type="text" name="usertype" placeholder="Ingrese el tipo de usuario" required>
                 <br>
                 <p>Contraseña</p>
-                <input type="text" name="password" placeholder="Ingrese la contraseña" required>
+                <input type="password" name="password" placeholder="Ingrese la contraseña" required>
                 <br>
                 <p>Confirme su contraseña</p>
-                <input type="text" name="confpassword" placeholder="Ingrese de nuevo la contraseña" required>
+                <input type="password" name="confpassword" placeholder="Ingrese de nuevo la contraseña" required>
                 <br>
                 <br>
                 <input type="submit" value="Crear usuario">

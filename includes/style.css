@@ -24,6 +24,12 @@ input[type=text]{
     font: 14px normal normal uppercase helvetica, arial, serif;
 }
 
+input[type=password]{
+    width:470px;
+    height:35px;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
 input[type=submit]{
     position:relative;
     width:150px;

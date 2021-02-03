@@ -10,13 +10,32 @@ h1{
     text-align: center;
 }
 
-.boton{
+input[type=button]{
     display: grid;
     grid-row-gap: 1fr 1fr 1fr ;
     justify-content: center;
+    margin-left: 860px;
+    padding:25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    font-size:15px;
+    font: 150% sans-serif;
 }
 
 .b{
     height: 100px;
     width: 100px;
 }
+
+#salir{
+    color:white;
+}
+
+#s{
+    background-color: red;
+    color:white;
+}
+
+
+
